@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "6346",
+      "username": "john",
+      "password": "john123",
+      "role": "customer",
+      "name": "John",
+      "phone": "082133765908",
+      "email": "john@gmail.com",
+      "address": "Semarang",
+      "balance": 100000
+    },
+    {
+      "id": "1803",
+      "username": "budi",
+      "password": "budi123",
+      "role": "customer",
+      "name": "Budi",
+      "phone": "08xxxxxxxxxx",
+      "email": "budi@example.com",
+      "address": "Jakarta",
+      "balance": 0
+    }
+  ],
+  "packages": [
+    {
+      "id": "1",
+      "name": "Paket Hemat",
+      "quota": "5 GB / 7 hari",
+      "price": 25000
+    },
+    {
+      "id": "2",
+      "name": "Paket Bulanan",
+      "quota": "20 GB / 30 hari",
+      "price": 75000
+    },
+    {
+      "id": "3",
+      "name": "Paket Unlimited Malam",
+      "quota": "Unlimited 00.00 - 06.00",
+      "price": 50000
+    },
+    {
+      "id": "32e6",
+      "name": "Paket Super Jumbo",
+      "quota": "1000GB/360hari",
+      "price": 1000000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "8b91",
+      "customerId": "6346",
+      "packageId": "2",
+      "amount": 75000,
+      "status": "BERHASIL",
+      "date": "2026-01-20T16:01:55.692Z"
+    },
+    {
+      "id": "0e63",
+      "customerId": "1803",
+      "packageId": "3",
+      "amount": 50000,
+      "status": "BERHASIL",
+      "date": "2026-01-21T13:11:19.835Z"
+    },
+    {
+      "id": "b2f8",
+      "customerId": "1803",
+      "packageId": "3",
+      "amount": 50000,
+      "status": "BERHASIL",
+      "date": "2026-01-21T13:11:25.130Z"
+    },
+    {
+      "id": "72be",
+      "customerId": "6346",
+      "packageId": "32e6",
+      "amount": 1000000,
+      "status": "BERHASIL",
+      "date": "2026-01-21T13:13:13.107Z"
+    }
+  ],
+  "topups": [
+    {
+      "id": "f273",
+      "customerId": "6346",
+      "amount": 100000,
+      "date": "2026-01-20T16:01:53.514Z"
+    },
+    {
+      "id": "d24b",
+      "customerId": "6346",
+      "amount": 1000000,
+      "date": "2026-01-21T11:45:31.220Z"
+    },
+    {
+      "id": "a539",
+      "customerId": "6346",
+      "amount": 50000,
+      "date": "2026-01-21T12:10:16.025Z"
+    },
+    {
+      "id": "9db5",
+      "customerId": "6346",
+      "amount": 25000,
+      "date": "2026-01-21T12:10:23.097Z"
+    },
+    {
+      "id": "069d",
+      "customerId": null,
+      "amount": 100000,
+      "date": "2026-01-21T12:58:53.188Z"
+    },
+    {
+      "id": "2218",
+      "customerId": "1803",
+      "amount": 100000,
+      "date": "2026-01-21T13:11:18.353Z"
+    }
+  ]
+}
